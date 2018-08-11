@@ -1,36 +1,31 @@
+@charset "UTF-8";
 /*-----Global Styles-----*/
 @font-face {
   font-family: 'Altero-Regular';
-  src: url('/fonts/Altero-Regular.otf');
-}
+  src: url("/fonts/Altero-Regular.otf"); }
 @font-face {
   font-family: 'Renner 300 light';
-  src: url('/fonts/OpenType/Renner 300 light.otf');
-}
-$main-font: 'Altero-Regular';
-$content-font: 'Renner 300 light';
-
+  src: url("/fonts/OpenType/Renner 300 light.otf"); }
 .hero .main_content {
-  display: flex;
-  }
-h1 {
-font: 100% $main-font;
-font-size: 5em;
-}
-li {
-  font: 100% $content-font;
-  list-style: none;
-}
-/*-----THIS IS ONLY A TEST------*/
+  display: flex; }
 
+h1 {
+  font: 100% "Altero-Regular";
+  font-size: 5em; }
+
+li {
+  font: 100% "Renner 300 light";
+  list-style: none; }
+
+/*-----THIS IS ONLY A TEST------*/
 /*-----Header styles------*/
 .hero {
-  background-image: url('/images/dunes.jpg');
+  background-image: url("/images/dunes.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
-  flex-direction: row;
-}
+  flex-direction: row; }
+
 .hero:after {
   content: "ᐶ";
   position: absolute;
@@ -38,125 +33,110 @@ li {
   right: 50vw;
   color: white;
   font-size: 4em;
-  transform: rotate(90deg);
-}
+  transform: rotate(90deg); }
+
 .hero h1 {
   display: inline;
   padding: 1.5vh;
-  color: white;
-}
+  color: white; }
 
 nav {
   float: right;
-  margin: -6vh 2vw 0 0;
-  ul {
+  margin: -6vh 2vw 0 0; }
+  nav ul {
     display: flex;
-    list-style: none;
-    li {
+    list-style: none; }
+    nav ul li {
       padding: 0vh .75vw;
       font-size: 2.75em;
       letter-spacing: -.05em;
-      color: white;
-    }
-  }
-}
-
+      color: white; }
 
 /*-----Main Content styles------*/
 .main_content {
-  flex-direction: column;
-}
+  flex-direction: column; }
+
 .about_content, .product_content,
 .app_content, .app_content,
 .order_content {
   display: flex;
   flex-direction: row;
-  height: 75vh;
-}
+  height: 75vh; }
 
 /*-----Intro bar styles------*/
 .intro_bar {
   height: 50vh;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 /*-----Features styles------*/
 .features {
   padding: 8vh 5vw;
-  background-color: orange;
-}
+  background-color: orange; }
+
 .features_list {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
+
 .feature {
   background: tomato;
   padding: 5px;
   width: 100px;
   height: 100px;
   margin: 10px;
-
   line-height: 100px;
   color: white;
   font-weight: bold;
   font-size: 2em;
-  text-align: center;
-}
-
+  text-align: center; }
 
 /*-----About Content styles------*/
 .about_bar {
   background-color: lime;
   height: 100%;
-  width: 42%;
-}
+  width: 42%; }
+
 .doggo_1 {
   background-color: skyblue;
   height: 100%;
-  width: 58%;
-}
+  width: 58%; }
 
 /*-----Product Content styles------*/
 .product_bar {
   background-color: pink;
   height: 100%;
-  width: 58%;
-}
+  width: 58%; }
+
 .product_img {
   background-color: grey;
   height: 100%;
-  width: 42%;
-}
-
+  width: 42%; }
 
 /*-----App Content styles------*/
 .app_bar {
   background-color: red;
   height: 100%;
-  width: 42%;
-}
+  width: 42%; }
+
 .app_img {
   background-color: lime;
   height: 100%;
-  width: 58%;
-}
-
+  width: 58%; }
 
 /*-----Order Content styles------*/
 .order_bar {
   background-color: blue;
   height: 100%;
-  width: 58%;
-}
+  width: 58%; }
+
 .contact_form {
   background-color: tomato;
   height: 100%;
-  width: 42%;
-}
+  width: 42%; }
 
 /*-----Footer styles-----*/
 .footer_bar {
   height: 25vh;
-  background-color: grey;
-}
+  background-color: grey; }
+
+/*# sourceMappingURL=styles.css.map */
