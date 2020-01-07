@@ -3,9 +3,11 @@
 @font-face {
   font-family: 'Altero-Regular';
   src: url("/fonts/Altero-Regular.otf"); }
+
 @font-face {
   font-family: 'Renner 300 light';
   src: url("/fonts/OpenType/Renner 300 light.otf"); }
+
 .hero .main_content {
   display: flex; }
 
@@ -17,7 +19,6 @@ li {
   font: 100% "Renner 300 light";
   list-style: none; }
 
-/*-----THIS IS ONLY A TEST------*/
 /*-----Header styles------*/
 .hero {
   background-image: url("/images/dunes.jpg");
@@ -138,5 +139,3 @@ nav {
 .footer_bar {
   height: 25vh;
   background-color: grey; }
-
-/*# sourceMappingURL=styles.css.map */
